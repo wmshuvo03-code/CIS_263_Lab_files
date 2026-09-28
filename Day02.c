@@ -23,5 +23,22 @@ int main() {
     printf("salary: %.4lf \n" ,salary);
     printf("double datatype size: %d bytes\n", sizeof(salary));
 
+    // long long input
+    long long phone;
+    printf("Enter your phone number: \n");
+    scanf("%lld", &phone);
+    printf("phone number: %lld \n" ,phone);
+    printf("long long datatype size: %d bytes\n", sizeof(phone));
+
+    // boolean variable
+    bool isStudent;
+    isStudent = true;
+
+    if (isStudent) {
+        printf("You are a student.\n");
+    } else {
+        printf("You are not a student.\n");
+    }
+
     return 0;
 }
