@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 int main() {
     
     //integer input
@@ -20,6 +21,7 @@ int main() {
     printf("Enter your salary: \n");
     scanf("%lf", &salary);
     printf("salary: %.4lf \n" ,salary);
+    printf("double datatype size: %d bytes\n", sizeof(salary));
 
     return 0;
 }
