@@ -4,9 +4,11 @@
 int main(){
 
 //character input 
+int e;
+scanf("%d", &e);
 char d;
 printf("Enter your character: ");
-scanf("%c", &d);
+scanf(" %c", &d);
 printf("grade: %c", d);
 
 //string input
