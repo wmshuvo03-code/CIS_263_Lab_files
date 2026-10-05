@@ -10,7 +10,7 @@ int main() {
     char grade;
     int marks;
 
-    // --- Taking Inputs ---
+    // Taking Inputs
     printf("Enter Student ID (integer): ");
     scanf("%d", &student_id);
     
@@ -32,8 +32,8 @@ int main() {
     printf("Enter Marks (integer): ");
     scanf("%d", &marks);
 
-    // --- Displaying Outputs ---
-    printf("\n--- Student Information ---\n");
+    //Display Outputs
+    printf("Student Information\n");
     printf("Student ID: %d\n", student_id);
     printf("Full Name: %s\n", full_name);
     printf("Age: %d\n", age);
@@ -49,7 +49,7 @@ int main() {
     printf("Grade: %c\n", grade);
     printf("Marks: %d\n", marks);
 
-    // --- Grade Calculation based on Marks ---
+
     printf("Calculated Grade: ");
     if (marks >= 80) {
         printf("A+\n");
