@@ -2,10 +2,9 @@
 #include <string.h>
 
 int main(){
-
-//character input 
 int e;
 scanf("%d", &e);
+//character input 
 char d;
 printf("Enter your character: ");
 scanf(" %c", &d);
